@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.list-unstyled{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    transition: 0.5s all;
+}
+
+a:hover{
+    color: black;
+}
+
+
+.text-secondary{
+    color: grey;
+}
+
+.black{
+    color: black;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #fff;
+    width: 400px;
+    height: 100%;
+}
+
+.left{   
+    margin: 30px 50px 30px 50px;
+}
+
+.list li{
+    padding: 3px;
+    margin: 7px;
+}
+
+
+
+.social li{
+    padding: 5px;
+}
+
+i{
+    font-size: 20px;
+}
+
+
+footer{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+
+.article{
+    padding-left: 400px;
+    width: 75%;
+    background: lightgrey;
+}
+
+.article1{
+    padding-bottom: 50px;
+}
+
+.right{
+    margin: 50px;
+}
+
+.img{
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    height:300px;
+    border-top-left-radius: 5px;   
+    border-top-right-radius: 5px;   
+}
+
+.article1 img{
+    display:block;
+    width:100%;
+    margin:-100px 0;
+}
+
+.text{
+    height: 150px;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.text span a{
+    font-size: 30px;
+}
+
+.text .p{
+    font-size: 15px;
+}
+
+.text .p a{
+    text-decoration: underline;
+}
+
+.date{
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.btn a{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    opacity: 0.7;
+    transition: 0.5s all;
+}
+.btn i{
+    padding-left: 5px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
